@@ -64,7 +64,7 @@ System.out.println(task.getValue()); //2
 System.out.println(carousel.execute()); //true
 System.out.println(task.getValue()); //1
 System.out.println(carousel.execute()); //true 
-System.out.println(0, task.getValue()); //0
+System.out.println(task.getValue()); //0
 
 System.out.println(carousel.execute()); //false
 System.out.println(carousel.isEmpty()); //true
